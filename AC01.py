@@ -1,8 +1,8 @@
-from flask import Flask, request, render_template # Importa a biblioteca
+from flask import Flask, request, render_template 
 
-app = Flask(__name__) # Inicializa a aplicação
+app = Flask(__name__) 
 
-@app.route('/') # Nova rota
+@app.route('/') 
 def main():
     resultado = None
     media = None    
@@ -26,4 +26,4 @@ def main():
                                          resultado=resultado)
 
 if __name__ == '__main__':
-  app.run() # Executa a aplicação
+  app.run() 

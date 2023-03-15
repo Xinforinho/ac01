@@ -1,11 +1,10 @@
 <html>
     <head>
-        <title>Meu primeiro site :D</title>
+        <title>AC01</title>
     </head>
-    <body>
+    <body style="background-color: crimson; display:flex; justify-content: center; align-items: center; flex-direction: column; color: aliceblue;">
         Aprovado ou Reprovado
-
-        <div>
+        <div >
             <form method="get">
                 Primeira Nota:
                 <input type="text" name="primeira">
@@ -18,7 +17,7 @@
         </div>
 
         {% if resultado %}
-        <div>
+        <div style="background-color: blue;">
             {{resultado}} com média {{media}}!!!
         </div>
         {% endif %}
